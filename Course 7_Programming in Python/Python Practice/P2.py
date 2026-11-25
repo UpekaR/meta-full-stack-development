@@ -1,0 +1,11 @@
+
+# Practice 02: Celsius to Fahrenheit Converter
+
+# Read temperature in Celsius
+celsius = float(input("Enter temperature in Celsius: "))
+
+# Convert Celsius to Fahrenheit
+fahrenheit = (celsius * 9 / 5) + 32
+
+# Display the result
+print(f"Temperature in Fahrenheit: {fahrenheit:.2f}")
